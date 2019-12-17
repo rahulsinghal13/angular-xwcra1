@@ -1,0 +1,4 @@
+<p>Parent Component
+  {{message}}
+</p>
+<app-child [receivedParentMessage]='fromParentToChild' (messageToEmitt)='parentMethod($event)'> </app-child>
